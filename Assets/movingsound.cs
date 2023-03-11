@@ -20,6 +20,7 @@ public class movingsound : MonoBehaviour
     void Start()
     {
         startMarker = transform;
+
         // Keep a note of the time the movement started.
         startTime = Time.time;
 
